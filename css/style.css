@@ -14,6 +14,8 @@ body{
 .navbar-brand{
 
   font-size: 29px;
+  color: black;
+
 
   }
 
@@ -21,6 +23,7 @@ body{
 
 
   background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 15px; 
   
 
 }
@@ -65,13 +68,26 @@ border-radius: 8px;
 
 
 }
+
+
+
+
+/*Form custom csss for the button link*/
+
+.form {
+
+  text-align: center;
+
+}
+
+
 /* button custom css properties */
 
 .button {
   display: inline-block;
   text-align: center;
-  border-radius: 10px;
-  background-color: #f4501ec9;
+  border-radius: 18px;
+  background-color: #0467a0a6;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -112,10 +128,118 @@ border-radius: 8px;
 
 .container-fluid {
 
-  padding-top: 80px;
+  padding-top: 90px;
   
 
 }
+
+
+/*  FOOTER CUSTOM STYLES  */
+
+
+.footer{
+
+  padding-bottom: 80px
+}
+
+@charset "UTF-8";
+
+
+.rounded-social-buttons{
+
+  padding-top: 90px;
+
+}
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.40rem;
+  margin-bottom: 0.25rem;
+  margin-left: 0.40rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
 
 
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
