@@ -2,7 +2,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    height:100vh;
+    height:100%;
     width: 100%;
     background-image: url(https://images.pexels.com/photos/558478/pexels-photo-558478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-repeat: no-repeat;
