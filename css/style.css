@@ -129,6 +129,7 @@ border-radius: 8px;
 .container-fluid {
 
   padding-top: 90px;
+  padding-bottom: 90px;
   
 
 }
@@ -137,17 +138,11 @@ border-radius: 8px;
 /*  FOOTER CUSTOM STYLES  */
 
 
-.footer{
-
-  padding-bottom: 80px
-}
-
-@charset "UTF-8";
 
 
 .rounded-social-buttons{
 
-  padding-top: 90px;
+
 
 }
 
@@ -249,3 +244,23 @@ border-radius: 8px;
       margin-top: 0;
     }
   }
+
+  /* CARD PORTFOLIO CUSTOM THEMES*/
+.card-body{
+
+  background-color: rgba(255, 255, 255, 0.644);
+  width: 30%;
+  height: auto;
+  text-align: center;
+
+
+}
+
+#img1{
+
+  width: 200px;
+  height: 180px;
+
+
+
+}
