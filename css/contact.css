@@ -146,6 +146,7 @@ border-radius: 8px;
 .rounded-social-buttons{
 
   padding-bottom: 0;
+  overflow: hidden;
 
 
 }
