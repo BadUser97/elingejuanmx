@@ -255,12 +255,24 @@ border-radius: 8px;
   border-radius: 30px;
   overflow:hidden;
   border-width: 5x;
-  border-style: dashed;
+  
   margin-bottom: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.328);
+  transition: 0.3s;
 
 
 
 }
+
+#btn{
+
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
 
 #img1{
 
@@ -283,3 +295,4 @@ border-radius: 8px;
       margin-top: 0;
     }
   }
+
